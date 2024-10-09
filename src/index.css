@@ -1,13 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+  background: rgb(207,207,207);
+  background: linear-gradient(0deg, rgba(207,207,207,1) 0%, rgba(255,255,255,1) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.acrylic-navbar {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .nav-link {
+  font-weight: 600;
+}
+
+.navbar-brand {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #000;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.hero-section {
+  background-image: 
+  linear-gradient(to bottom, transparent, #000), url('https://i0.wp.com/www.muscleandfitness.com/wp-content/uploads/2019/02/abs-man-hanging-core-workout-1109.jpg?w=940&h=529&crop=1&quality=86&strip=all');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  color: white;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.hero-button {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.acrylic-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.acrylic-card:hover {
+  transform: scale(1.05);
+}
+
+.acrylic-card img {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.acrylic-card .card-body {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.acrylic-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.acrylic-card .card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.acrylic-card .btn {
+  font-weight: 500;
+}
+.login-container {
+  margin-top: 100px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+.register-container {
+  margin-top: 100px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+label, .form-control {
+  font-family: 'Montserrat', sans-serif;
 }
