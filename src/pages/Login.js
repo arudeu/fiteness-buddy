@@ -57,7 +57,7 @@ export default function Login() {
         });
       });
   }
-  return (
+  user !== null ? (
     <Container className="login-container w-50">
       <Row className="justify-content-md-center">
         <Col md={6}>
@@ -94,5 +94,7 @@ export default function Login() {
         </Col>
       </Row>
     </Container>
+  ) : (
+    <Navigate to="/" />
   );
 }
